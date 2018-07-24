@@ -26,7 +26,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Xamarin.Forms/3.0.0.482510": {
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.6-beta": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.1.0.637273": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -41,6 +53,18 @@
         "build": {
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.0.42-pre3"
+        },
+        "compile": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {}
         }
       }
     }
@@ -187,11 +211,32 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Xamarin.Forms/3.0.0.482510": {
-      "sha512": "kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.6-beta": {
+      "sha512": "/LkB4RSHM+b02EMmJy0PiDlZKhmtbL+52/nb328xaYAcArTQ/vAiEF5c1FrjlVp6kExae5xCP9In7JIeTtTdaA==",
       "type": "package",
-      "path": "xamarin.forms/3.0.0.482510",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.6-beta",
       "files": [
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.6-beta.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
+      ]
+    },
+    "Xamarin.Forms/3.1.0.637273": {
+      "sha512": "iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "type": "package",
+      "path": "xamarin.forms/3.1.0.637273",
+      "files": [
+        ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
@@ -219,13 +264,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -327,20 +370,39 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.0.0.482510.nupkg.sha512",
+        "xamarin.forms.3.1.0.637273.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
+      "sha512": "+xxUr80PHBiYkrBQQ4oXYm9Xi9lUSwhVzIeoGuSOc37LkoC83grG3irOpw0tevtfMIzS109QAJ7pNULq6evjgQ==",
+      "type": "package",
+      "path": "xamarin.forms.carouselview/2.3.0-pre2",
+      "files": [
+        "lib/MonoAndroid10/Xamarin.Forms.CarouselView.dll",
+        "lib/MonoTouch10/Xamarin.Forms.CarouselView.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll",
+        "lib/uap10.0/Xamarin.Forms.CarouselView.dll",
+        "lib/win81/Xamarin.Forms.CarouselView.dll",
+        "lib/wpa81/Xamarin.Forms.CarouselView.dll",
+        "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
+        "xamarin.forms.carouselview.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
-      "Xamarin.Forms >= 3.0.0.482510"
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.6-beta",
+      "Xamarin.Forms >= 3.1.0.637273",
+      "Xamarin.Forms.CarouselView >= 2.3.0-pre2"
     ]
   },
   "packageFolders": {
@@ -391,9 +453,17 @@
             "version": "[2.0.1, )",
             "autoReferenced": true
           },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.6-beta, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.482510, )"
+            "version": "[3.1.0.637273, )"
+          },
+          "Xamarin.Forms.CarouselView": {
+            "target": "Package",
+            "version": "[2.3.0-pre2, )"
           }
         },
         "imports": [
@@ -403,5 +473,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Xamarin.Forms.CarouselView 2.3.0-pre2' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Xamarin.Forms.CarouselView",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

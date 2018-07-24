@@ -1,6 +1,5 @@
-System.Runtime
-Xamarin.CustomViews
 FormsViewGroup
+System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
@@ -17,7 +16,11 @@ Xamarin.Android.Support.v7.MediaRouter
 Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.CustomViews
 Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
+netstandard
+Xamarin.Forms.CarouselView
+ImageCircle.Forms.Plugin
