@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Input;
+using Xamarin.CustomViews.Enums;
 using Xamarin.Forms;
 
 namespace Xamarin.CustomViews.Views
 {
     public class ButtonGroup : DynamicGrid
     {
-        public ButtonGroup(int column, int starHeight = 0) : base(column, starHeight)
+        public ButtonGroup(DynamicGridEnum dynamicGridEnum,int column, int starHeight = 0) : base(dynamicGridEnum,column, starHeight)
         {
         }
 

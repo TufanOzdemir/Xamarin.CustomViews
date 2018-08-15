@@ -8,23 +8,16 @@ using Xamarin.Forms;
 
 namespace Xamarin.CustomViews
 {
-	public partial class MainPage : ContentPage
-	{
-		public MainPage()
-		{
-            Content = new StackLayout()
-            {
-                Children =
-                {
-                    new Checkbox(),
-                    new CheckboxCardView("CheckboxCardView"),
-                    new AccordionView("Accordion View",new Label(){ Text = "asd" }),
-                    new ButtonCardView("ButtonCardView","Icon"),
-                    new Line(Enums.LineEnum.Horizontal),
-                    new TitleComponent("Title Component"),
-                    new SnackBar("SnackBar",Color.Green)
-                }
-            };
-		}
-	}
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            DynamicGrid dynamicGrid = new DynamicGrid(Enums.DynamicGridEnum.Auto, 4);
+            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Green });
+            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Red });
+            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Blue });
+            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Black });
+            Content = dynamicGrid;
+        }
+    }
 }
