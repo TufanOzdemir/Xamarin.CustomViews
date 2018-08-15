@@ -12,12 +12,9 @@ namespace Xamarin.CustomViews
     {
         public MainPage()
         {
-            DynamicGrid dynamicGrid = new DynamicGrid(Enums.DynamicGridEnum.Auto, 4);
-            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Green });
-            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Red });
-            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Blue });
-            dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Black });
-            Content = dynamicGrid;
+            StackLayout sl = new StackLayout();
+            sl.Children.Add(new PercentShowCardView(new PercentShowView(Color.Green, Color.Wheat, 60) { HeightRequest = 5 }, "%60", Color.Aqua, new List<int>() { 90, 10 }));
+            Content = sl;
         }
     }
 }
