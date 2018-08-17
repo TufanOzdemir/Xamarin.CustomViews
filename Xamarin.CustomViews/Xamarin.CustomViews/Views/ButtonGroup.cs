@@ -10,7 +10,7 @@ namespace Xamarin.CustomViews.Views
 {
     public class ButtonGroup : DynamicGrid
     {
-        public ButtonGroup(DynamicGridEnum dynamicGridEnum,int column, int starHeight = 0) : base(dynamicGridEnum,column, starHeight)
+        public ButtonGroup(int column, int starHeight = 0) : base(DynamicGridEnum.Star, column, starHeight)
         {
         }
 

@@ -7,69 +7,34 @@ namespace Xamarin.CustomViews.Views
 {
     public class DynamicGrid : DynamicGridView
     {
-        
-        private int _starHeight = 0;
-        List<int> _starHeightList;
-
-        public DynamicGrid(DynamicGridEnum dynamicGridEnum, int column) : base(dynamicGridEnum,column)
+        public DynamicGrid(DynamicGridEnum dynamicGridEnum, params int[] starHeightList) : base(dynamicGridEnum, starHeightList)
         {
-            Initialize();
-        }
-
-        public DynamicGrid(DynamicGridEnum dynamicGridEnum, int column, int starHeight) : base(dynamicGridEnum, column)
-        {
-            _starHeight = starHeight;
-            Initialize();
-        }
-
-        public DynamicGrid(DynamicGridEnum dynamicGridEnum, int column, List<int> starHeightList) : base(dynamicGridEnum, column)
-        {
-            _starHeightList = starHeightList;
-            Initialize();
-        }
-
-        private void Initialize()
-        {
-            switch (_dynamicGridEnum)
+            for (int i = 0; i < starHeightList.Length; i++)
             {
-                case DynamicGridEnum.Auto:
-                    StartAutoGrid();
-                    break;
-                case DynamicGridEnum.Star:
-                    StartStarGrid();
-                    break;
-                case DynamicGridEnum.Custom:
-                    StartCustomGrid();
-                    break;
-                default:
-                    break;
+                if (starHeightList[i] <= 0)
+                {
+                    starHeightList[i] = 1;
+                }
             }
+            if (dynamicGridEnum == DynamicGridEnum.Custom)
+            {
+                StartCustomGrid();
+            }
+            else
+                StartGrid();
         }
 
-        private void StartAutoGrid()
+        private void StartGrid()
         {
             int percent = 100 / _column;
             for (int i = 0; i < _column; i++)
-            {
-                ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(percent, GridUnitType.Auto) });
-            }
-        }
-
-        private void StartStarGrid()
-        {
-            int percent = 100 / _column;
-            for (int i = 0; i < _column; i++)
-            {
-                ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(percent, GridUnitType.Star) });
-            }
+                ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(percent, (GridUnitType)_type) });
         }
 
         private void StartCustomGrid()
         {
             foreach (var item in _starHeightList)
-            {
                 ColumnDefinitions.Add(new ColumnDefinition() { Width = new GridLength(item, GridUnitType.Star) });
-            }
         }
     }
 }
