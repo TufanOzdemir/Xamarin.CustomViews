@@ -18,7 +18,7 @@ namespace Xamarin.CustomViews
             dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Aqua });
             dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.AntiqueWhite });
             dynamicGrid.AddView(new BoxView() { BackgroundColor = Color.Azure });
-            sl.Children.Add(new PercentShowCardView(new PercentShowView(Color.Green, Color.Wheat, 200) { HeightRequest = 5 }, "%60", Color.Aqua, 90, 10));
+            sl.Children.Add(new PercentShowCardView(Color.Beige, Color.Bisque, 60, Color.Black, 90, 10));
             sl.Children.Add(dynamicGrid);
             Content = sl;
         }

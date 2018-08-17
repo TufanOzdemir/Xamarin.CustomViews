@@ -16,6 +16,7 @@ namespace Xamarin.CustomViews.Views
                     starHeightList[i] = 1;
                 }
             }
+
             if (dynamicGridEnum == DynamicGridEnum.Custom)
             {
                 StartCustomGrid();
