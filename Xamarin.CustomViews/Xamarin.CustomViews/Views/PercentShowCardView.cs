@@ -11,7 +11,7 @@ namespace Xamarin.CustomViews.Views
         {
             Padding = 0; Margin = 0;
             AddView(new PercentShowView(fullColor, emptyColor, value) { HeightRequest = 5 });
-            AddView(new Label() { Text = value.ToString(), FontAttributes = FontAttributes.Bold, Margin = 0, VerticalTextAlignment = TextAlignment.Center, HorizontalTextAlignment = TextAlignment.End, TextColor = textColor });
+            AddView(new Label() { Text = $"%{value.ToString()}", FontAttributes = FontAttributes.Bold, Margin = 0, VerticalTextAlignment = TextAlignment.Center, HorizontalTextAlignment = TextAlignment.End, TextColor = textColor });
         }
     }
 }
