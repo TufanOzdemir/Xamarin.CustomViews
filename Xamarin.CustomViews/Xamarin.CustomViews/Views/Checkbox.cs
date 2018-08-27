@@ -13,6 +13,7 @@ namespace Xamarin.CustomViews.Views
         {
             ViewLoad();
         }
+
         public Checkbox(Action callback)
         {
             _callback = callback;

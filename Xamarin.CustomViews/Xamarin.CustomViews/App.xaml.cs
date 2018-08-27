@@ -1,4 +1,5 @@
 using System;
+using Xamarin.CustomViews.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace Xamarin.CustomViews
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = new FormDemo();
 		}
 
 		protected override void OnStart ()
