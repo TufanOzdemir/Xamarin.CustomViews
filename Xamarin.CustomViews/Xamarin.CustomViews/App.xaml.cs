@@ -12,7 +12,7 @@ namespace Xamarin.CustomViews
 		{
 			InitializeComponent();
 
-			MainPage = new FormDemo();
+			MainPage = new CheckboxDemo();
 		}
 
 		protected override void OnStart ()

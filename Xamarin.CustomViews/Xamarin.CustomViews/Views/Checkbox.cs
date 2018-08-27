@@ -22,11 +22,11 @@ namespace Xamarin.CustomViews.Views
 
         private void ViewLoad()
         {
-            MinimumHeightRequest = 20;
-            MinimumWidthRequest = 20;
-            BorderColor = Color.Black;
-            WidthRequest = 20;
             HeightRequest = 20;
+            WidthRequest = 20;
+            HorizontalOptions = LayoutOptions.Start;
+            VerticalOptions = LayoutOptions.Start;
+            BorderColor = Color.Black;
             Padding = 0;
             Margin = 0;
             BackgroundColor = Color.White;
