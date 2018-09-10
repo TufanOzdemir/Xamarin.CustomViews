@@ -9,13 +9,7 @@ namespace Xamarin.CustomViews.Views
     {
         public DynamicGrid(DynamicGridEnum dynamicGridEnum, params int[] starHeightList) : base(dynamicGridEnum, starHeightList)
         {
-            for (int i = 0; i < starHeightList.Length; i++)
-            {
-                if (starHeightList[i] <= 0)
-                {
-                    starHeightList[i] = 1;
-                }
-            }
+            for (int i = 0; i < starHeightList.Length; i++) { starHeightList[i] = starHeightList[i] <= 0 ? 1 : starHeightList[i]; }
 
             if (dynamicGridEnum == DynamicGridEnum.Custom)
             {

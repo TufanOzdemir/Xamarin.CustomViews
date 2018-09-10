@@ -12,7 +12,7 @@ namespace Xamarin.CustomViews
 		{
 			InitializeComponent();
 
-			MainPage = new CheckboxDemo();
+			MainPage = new DynamicGridDemo();
 		}
 
 		protected override void OnStart ()

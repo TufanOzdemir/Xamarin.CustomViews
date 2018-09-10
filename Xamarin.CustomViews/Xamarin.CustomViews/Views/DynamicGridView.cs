@@ -17,18 +17,18 @@ namespace Xamarin.CustomViews.Views
 
         public DynamicGridEnum _dynamicGridEnum;
 
-        public DynamicGridView(DynamicGridEnum dynamicGridEnum,params int[] starHeightList)
+        public DynamicGridView(DynamicGridEnum dynamicGridEnum, params int[] starHeightList)
         {
-            _type = 1;
+            _type = 2;
             switch (dynamicGridEnum)
             {
                 case DynamicGridEnum.Auto:
                     _column = starHeightList[0];
-                    _type = 2;
                     break;
                 case DynamicGridEnum.Star:
                     _column = starHeightList[0];
                     _starHeight = starHeightList[1];
+                    _type = 1;
                     break;
                 case DynamicGridEnum.Custom:
                     _column = starHeightList.Length;
@@ -51,7 +51,7 @@ namespace Xamarin.CustomViews.Views
             int countRow = _rowCount / _column;
             if (RowDefinitions.Count <= countRow)
             {
-                RowDefinitions.Add(new RowDefinition() { Height = new GridLength(50, (GridUnitType)_type) });
+                RowDefinitions.Add(new RowDefinition() { Height = new GridLength(1, (GridUnitType)_type) });
             }
             Children.Add(view, _columnCount, countRow);
             _rowCount++;
