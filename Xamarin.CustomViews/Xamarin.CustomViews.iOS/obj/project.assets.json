@@ -712,11 +712,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -864,11 +866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program çalışmaları\\Xamarin\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\Xamarin.CustomViews.iOS.csproj",
+      "projectUniqueName": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\Xamarin.CustomViews.iOS.csproj",
       "projectName": "Xamarin.CustomViews.iOS",
-      "projectPath": "D:\\Program çalışmaları\\Xamarin\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\Xamarin.CustomViews.iOS.csproj",
+      "projectPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\Xamarin.CustomViews.iOS.csproj",
       "packagesPath": "C:\\Users\\amoni\\.nuget\\packages\\",
-      "outputPath": "D:\\Program çalışmaları\\Xamarin\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\obj\\",
+      "outputPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -880,14 +882,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\amoni\\Desktop": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://ci.appveyor.com/nuget/solrnet-022x5w7kmuba": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Program çalışmaları\\Xamarin\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj": {
-              "projectPath": "D:\\Program çalışmaları\\Xamarin\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj"
+            "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj": {
+              "projectPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj"
             }
           }
         }

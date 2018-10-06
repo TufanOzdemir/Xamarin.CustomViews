@@ -12,7 +12,7 @@ namespace Xamarin.CustomViews
 		{
 			InitializeComponent();
 
-			MainPage = new DynamicGridDemo();
+			MainPage = new PercentCardViewDemo();
 		}
 
 		protected override void OnStart ()

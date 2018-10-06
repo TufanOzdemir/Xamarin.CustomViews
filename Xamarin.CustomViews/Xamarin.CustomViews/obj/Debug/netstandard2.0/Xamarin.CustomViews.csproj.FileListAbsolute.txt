@@ -1,12 +1,12 @@
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.deps.json
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.dll
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.pdb
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csprojAssemblyReference.cache
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csproj.CoreCompileInputs.cache
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfoInputs.cache
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfo.cs
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.dll
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.pdb
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-D:\Program çalışmaları\Xamarin\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.deps.json
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.dll
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.pdb
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csprojAssemblyReference.cache
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csproj.CoreCompileInputs.cache
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfoInputs.cache
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfo.cs
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.dll
+C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.pdb
