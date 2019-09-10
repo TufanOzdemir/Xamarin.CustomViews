@@ -24,7 +24,7 @@ namespace Xamarin.CustomViews.Views
                 HeightRequest = 200,
                 Margin = 0
             };
-            carouselView.ItemSelected += ScrollCarousel;
+            //carouselView.ItemSelected += ScrollCarousel;
             carouselView.ItemsSource = sourceList;
 
             HorizontalOptions = LayoutOptions.Center;

@@ -10,3 +10,15 @@ C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\
 C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.dll
 C:\Yedek\Xamarin.CustomViews-master\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.pdb
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.deps.json
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.dll
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\bin\Debug\netstandard2.0\Xamarin.CustomViews.pdb
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csprojAssemblyReference.cache
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.csproj.CoreCompileInputs.cache
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfoInputs.cache
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.AssemblyInfo.cs
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.dll
+C:\Users\amoni\Desktop\CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\Xamarin.CustomViews\obj\Debug\netstandard2.0\Xamarin.CustomViews.pdb

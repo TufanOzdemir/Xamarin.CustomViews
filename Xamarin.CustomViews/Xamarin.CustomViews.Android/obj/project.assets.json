@@ -323,8 +323,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.6-beta",
-          "Xamarin.Forms": "3.1.0.637273",
-          "Xamarin.Forms.CarouselView": "2.3.0-pre2"
+          "Xamarin.Forms": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/Xamarin.CustomViews.dll": {}
@@ -553,10 +552,11 @@
       ]
     },
     "Xamarin.Forms/3.1.0.637273": {
-      "sha512": "iYIMlhf5BFutJiVYYfawEtMzq4vo9m5qdT7R/IeDD40ENsqxqMBmvwp1/VzfD0las3ptkE0vgUG57O7QcUJlow==",
+      "sha512": "PDG9pkQYtSgOaa7+rCb/f69tvqjCXMpAEheFQPqQwNuTbRb4o3Tt8CtH3+K39GyDn9sw4UWI95lSlo17qdKFsA==",
       "type": "package",
       "path": "xamarin.forms/3.1.0.637273",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
@@ -739,21 +739,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amoni\\.nuget\\packages\\": {}
+    "C:\\Users\\amoni\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\Xamarin.CustomViews.Android.csproj",
+      "projectUniqueName": "C:\\Users\\amoni\\Desktop\\CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\Xamarin.CustomViews.Android.csproj",
       "projectName": "Xamarin.CustomViews.Android",
-      "projectPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\Xamarin.CustomViews.Android.csproj",
+      "projectPath": "C:\\Users\\amoni\\Desktop\\CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\Xamarin.CustomViews.Android.csproj",
       "packagesPath": "C:\\Users\\amoni\\.nuget\\packages\\",
-      "outputPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\obj\\",
+      "outputPath": "C:\\Users\\amoni\\Desktop\\CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\amoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
@@ -767,8 +772,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj": {
-              "projectPath": "C:\\Yedek\\Xamarin.CustomViews-master\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj"
+            "C:\\Users\\amoni\\Desktop\\CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj": {
+              "projectPath": "C:\\Users\\amoni\\Desktop\\CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews\\Xamarin.CustomViews.csproj"
             }
           }
         }
@@ -812,5 +817,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.2.0.709249 to 3.1.0.637273. Reference the package directly from the project to select a different version. \r\n Xamarin.CustomViews.Android -> Xamarin.CustomViews -> Xamarin.Forms (>= 4.2.0.709249) \r\n Xamarin.CustomViews.Android -> Xamarin.Forms (>= 3.1.0.637273)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.1"
+      ]
+    }
+  ]
 }
